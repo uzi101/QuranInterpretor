@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  max-width: 800px;  /* Limit the width */
+  margin: 0 auto;  /* Center the content */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;  /* Reduce the height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);  /* Adjust the font size */
+  color: white;
+}
+
+/* Add this to limit the main content size */
+.main-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
